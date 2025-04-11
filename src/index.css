@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+@theme {
+  --color-app-500: oklch(0.72 0.11 178);
+}
+/* @theme {
+  --color-brand-light: #3AB0FF;
+  --color-brand-default: #007BFF;
+  --color-brand-dark: #0056b3;
+  --color-custom-gray: #f4f4f5;
+} */
