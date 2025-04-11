@@ -13,7 +13,7 @@ export default function Gallery({}: Props) {
 
       <div className="grid grid-cols-1 place-items-center sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 p-4">
         {galleryImages.map((image) => (
-          <div className="group relative">
+          <div className="group relative" key={image}>
             <img
               src={image}
               alt="Image 1"

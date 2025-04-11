@@ -35,7 +35,7 @@ export default function WhyUs({}: Props) {
       <div className="container px-5 py-12 mx-auto">
         <div className="flex flex-wrap text-center">
           {listData.map((item) => (
-            <div className="p-4  md:w-1/4 sm:w-1/2">
+            <div className="p-4  md:w-1/4 sm:w-1/2" key={item.title}>
               <div className="px-4 py-6 bg-gray-100  shadow-xs hover:scale-110 duration-500 flex flex-col gap-4 rounded-md h-[12rem] items-center justify-center">
                 <h2 className="text-xl font-[600] text-gray-900">
                   {item.title}

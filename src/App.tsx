@@ -1,4 +1,5 @@
 import './App.css'
+import React from 'react'
 import Home from './pages/home'
 import Header from './components/header'
 import ContactUs from './components/contactUs'
@@ -8,15 +9,14 @@ import Gallery from './components/Gallery'
 function App() {
 
   return (
-    <>
+    <React.Fragment>
     <Header/>
       <Home/>
       <WhyUs/>
       <Gallery/>
       <AboutUs/>
       <ContactUs/>
-    
-    </>
+    </React.Fragment>
   )
 }
 
